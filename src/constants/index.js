@@ -17,12 +17,17 @@ import {
     docker,
     meta,
     starbucks,
-    tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    tech4bet,
+    danfoss,
+    UVT,
+    VUT
+    
+   
   } from "../assets";
   
   export const navLinks = [
@@ -80,10 +85,7 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -92,10 +94,7 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    
     {
       name: "Three JS",
       icon: threejs,
@@ -116,24 +115,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Study of Computer Science VUT Brno",
+      company_name: "VUT",
+      icon: VUT,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "September 2021 - June 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,10 +129,10 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Ustav Vypocetni Techniky  Masarykova Univerzita Brno",
+      icon: UVT,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "September 2021 - December 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +141,40 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "React.js/Python Developer",
+      company_name: "Tech4Bet",
+      icon: tech4bet,
+      iconBg: "#383E56",
+      date: "January 2022 - May 2022",
+      points: [
+        "Developing web applications using React.js.",
+        "Developing backend applications to track slot machines around the world",
+        "Collaborating with a Senior FullStack Developer and UI designer",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        ,
+      ],
+    },
+    {
+      title: "React.js/Python Developer",
+      company_name: "Danfoss",
+      icon: danfoss,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2022 -  September 2022",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing Python Web App for specfic branch of the firm",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+        
+      ],
+    },
+    {
+      title: "Study of Managing Informatics VUT Brno",
+      company_name: "VUT",
+      icon: VUT,
+      iconBg: "#E6DEDD",
+      date: "September 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,6 +182,8 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    
+   
   ];
   
   const testimonials = [

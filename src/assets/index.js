@@ -24,11 +24,15 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tech4bet from "./company/tech4bet.png";
+import danfoss from "./company/danfosslogo.png";
+import UVT from "./company/UVT.png";
+import VUT from "./company/VUT.png"
 
 export {
   logo,
@@ -55,8 +59,12 @@ export {
   meta,
   shopify,
   starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  tech4bet,
+  danfoss,
+  UVT,
+  VUT
+
 };
