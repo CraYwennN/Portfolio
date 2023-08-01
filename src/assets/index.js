@@ -33,6 +33,9 @@ import tech4bet from "./company/tech4bet.png";
 import danfoss from "./company/danfosslogo.png";
 import UVT from "./company/UVT.png";
 import VUT from "./company/VUT.png"
+import porsche from "./tech/porsche.jpg"
+import portfolio from "./tech/portfolio.png"
+
 
 export {
   logo,
@@ -65,6 +68,8 @@ export {
   tech4bet,
   danfoss,
   UVT,
-  VUT
+  VUT,
+  porsche,
+  portfolio
 
 };

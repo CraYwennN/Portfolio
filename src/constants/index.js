@@ -19,13 +19,15 @@ import {
     starbucks,
     shopify,
     carrent,
+    porsche,
     jobit,
     tripguide,
     threejs,
     tech4bet,
     danfoss,
     UVT,
-    VUT
+    VUT,
+    portfolio
     
    
   } from "../assets";
@@ -121,10 +123,8 @@ import {
       iconBg: "#E6DEDD",
       date: "September 2021 - June 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Studing Computer Science on VUT in Brno for first two semesters",
+        
       ],
     },
     {
@@ -176,101 +176,74 @@ import {
       iconBg: "#E6DEDD",
       date: "September 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Starting my next studies on VUT but this time Managing Informatics",
+        
       ],
     },
     
    
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Porsche",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "I am copying the official porsche website to learn all their design tricks and all of the funcionality that a full-pledged website might need. ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "json databaze",
           color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: porsche,
+      source_code_link: "https://github.com/CraYwennN/ProjectCars",
+    },
+    {
+      name: "My Portfolio",
+      description:
+        "My web portfolio that tracks my journey of learning 3d modeling in react with libraries such as three-drei,three-fibe,framer-motion and so on ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react-three",
+          color: "green-text-gradient",
+        },
+        {
+          name: "taliwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "In progress",
+      description:
+        "...",
+      tags: [
+        {
+          name: "",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "",
+          color: "green-text-gradient",
+        },
+        {
+          name: "",
           color: "pink-text-gradient",
         },
       ],
@@ -279,4 +252,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

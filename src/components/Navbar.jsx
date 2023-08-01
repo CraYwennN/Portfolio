@@ -20,9 +20,7 @@ import {logo,menu,close} from '../assets'
             setActive("");
               window.scrollTo(0,0);
           }}>
-          <img src={logo} 
-          alt="Logo" 
-          className='w-9 h-9 object-contain' />
+          
           <p className='text-white text-[18px] font-bold cursor-pointer'>Oliver<span className='sm:block hidden'>Web Developer</span></p>
          
         </Link>
